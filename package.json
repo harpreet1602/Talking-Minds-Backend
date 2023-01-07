@@ -1,0 +1,29 @@
+{
+  "name": "talkingminds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Kaushik",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "jsdom": "^20.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "line-reader": "^0.4.0",
+    "mongoose": "^6.4.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "sib-api-v3-sdk": "^8.4.2"
+  }
+}
