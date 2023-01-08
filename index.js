@@ -7,6 +7,7 @@ const mongoose=require('mongoose');
 //IMPORT ROUTES
 const authRoute=require('./routes/auth');
 const postRoute=require('./routes/posts');
+const cors = require("cors");
 dotenv.config();
 
 //Connect to DB
@@ -20,9 +21,9 @@ catch (error) {
 
 //MIDDLEWARES
 app.use(express.json());
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*")
-})
+// app.use((req, res, next) => {
+//   res.header("Access-Control-Allow-Origin", "*")
+// })
 var corsOptions = {
   origin: "http://localhost:3000"
 };
