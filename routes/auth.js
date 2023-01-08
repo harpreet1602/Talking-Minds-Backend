@@ -4,6 +4,11 @@ const verify= require('./verifyToken');
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
+const cors = require("cors");
+router.use(cors({
+  origin: "*",
+}));
+
 const {
   registerValidation,
   loginValidation
