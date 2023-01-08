@@ -20,6 +20,14 @@ catch (error) {
 
 //MIDDLEWARES
 app.use(express.json());
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*")
+})
+var corsOptions = {
+  origin: "http://localhost:3000"
+};
+
+app.use(cors(corsOptions));
 
 // ROUTE MIDDLESWARES
 app.use('/api/user',authRoute);
