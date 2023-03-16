@@ -19,12 +19,15 @@
     "email-validator": "^2.0.4",
     "express": "^4.18.1",
     "express-session": "^1.17.3",
+    "firebase": "^9.17.2",
+    "firebase-admin": "^11.5.0",
     "jsdom": "^20.0.2",
     "jsonwebtoken": "^8.5.1",
     "line-reader": "^0.4.0",
     "mongoose": "^6.4.1",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.21",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
     "sib-api-v3-sdk": "^8.4.2"
   }
 }
